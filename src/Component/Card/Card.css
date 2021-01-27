@@ -1,0 +1,28 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+}
+
+.infected {
+  margin: 0 2% 3rem !important;
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4) !important;
+}
+.recovered {
+  margin: 0 2% 3rem !important;
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4) !important;
+}
+.death {
+  margin: 0 2% 3rem !important;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+@media (max-width: 770px) {
+  .infected {
+    padding-bottom: 3rem;
+  }
+}
